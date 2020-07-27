@@ -1,1 +1,3 @@
-# Tic-Tac-Toe
+This is an Android student project working with common UI elements such as -Button -TextView -Relative Layout -Linear Layout -A popup activity made by DisplayMetrics.
+This is a game of Tic-Tac-Toe. The result of each game will be shown in an activity that looks like a popup. In order to achieve the popup-looking activity, I had to get the width and height of the display and load it on a DisplayMetric.Also, I tried to learn to work with onSaveInstanceState and onRestoreInstanceState to be able to keep the state of the game in case of the rotation of the device.
+UI elements of the board are made of nine buttons arranged in three rows of linear layouts.The buttons have a width of zero and their tidy arrangement is handled by putting their layout_weight="1" (LinearLayout)
